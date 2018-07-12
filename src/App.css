@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  }
+
+.App-logo {
+  height: 120px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color:white;
+}
+.type1{
+  position: absolute;
+  font-size: 20px;
+  left:580px;
+  top: 414px;
+  padding:0px;
+}
+.check{
+  position: absolute;
+  left: 560px;
+}
+.link{
+  color: black;
+}
+.App-title {
+  font-size: 2.5em;
+}
+.field1{
+  width:200px;
+  height:30px;
+}
+.buttn {
+  background-color: rgb(9, 201, 15); 
+    border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.extend{
+  height: 40px;
+  width: 70px;
+  color: green;
+  font-size: 10px; 
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
