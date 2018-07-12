@@ -1,0 +1,43 @@
+<html>
+    <head>
+        </head>
+        <body style="background-color:blue">
+            
+            <script>
+               function validate()
+               {
+                   var email=document.getElementById("me").value;
+                   var password=document.getElementById("pwd").value;
+                   if(email=="" && password=="")
+                   {
+                       alert("Please Enter Character in email and password");
+                   }
+                   else if(password.length<8)
+                   {
+                   alert("Enter the password greater than 8 character");  
+                   }
+                  else 
+                  {
+
+                      alert("E-Mail:"+email+"  Password:"+password);
+                  }
+
+               }
+            </script>
+            
+            <center>
+                  <div>
+                <h1>Hello!</h1>
+                </div>
+                <h4>Welcome to login page<br><br>
+                    <input type="email" name="email" id="me" placeholder="E-mail Address">
+                    <br><br>
+                    <input type="password" name="password" id="pwd" placeholder="Password"><br><br>
+                    <input type="checkbox">keep me logged in<br><br>
+                        <input type="submit"  value="Login " onclick="validate()" style="font-size:20px;color:black;background-color:green;border:2px solid #336600;padding:3px">  
+                    
+                                        <br><br>
+                        <a href="https://www.google.com/" style="color: black"> Forgot Password? </a>
+                    </center>
+
+        </body>
